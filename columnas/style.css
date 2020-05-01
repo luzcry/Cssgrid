@@ -8,11 +8,11 @@ body {
     /*grid-template-columns: 25% 50% 25%;
     grid-template-rows: 300px 300px;
     grid-template: filas/columnas;*/
-    grid-template: 300px 100px 100px / 50% 200px 100px;
+    grid-template: 300px 100px 100px / repeat(4, minmax(200px, 1fr));
     grid-column-gap: 30px;
     grid-row-gap: 20px;
     /*filas columnas*/
-    grid-gap: 10px 100px;
+    grid-gap: 10px;
 
 
 }
